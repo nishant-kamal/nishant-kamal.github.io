@@ -1,7 +1,31 @@
+baseURL = "https://imnishantdevops.github.io/"
+languageCode = "en-us"
+title = "Nishant | SRE / DevOps"
+theme = "PaperMod"
+
+# -----------------------
+# Site Params
+# -----------------------
+[params]
+  author = "Nishant"
+  description = "Site Reliability / DevOps Engineer working with Kubernetes, Cloud, and Automation"
+  defaultTheme = "auto"         # dark / light auto
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+# -----------------------
+# Profile Mode (HOMEPAGE)
+# -----------------------
 [params.profileMode]
   enabled = true
   title = "Hi, I’m Nishant 👋"
   subtitle = "Site Reliability / DevOps Engineer | Kubernetes | Cloud | Automation"
+  imageUrl = ""                 # add later if you want profile image
+  imageTitle = "Nishant"
+  imageWidth = 120
+  imageHeight = 120
 
   [[params.profileMode.buttons]]
     name = "Projects"
@@ -10,3 +34,37 @@
   [[params.profileMode.buttons]]
     name = "About"
     url = "/about/"
+
+# -----------------------
+# Social Icons
+# -----------------------
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/imnishantdevops"
+
+# Uncomment when ready
+# [[params.socialIcons]]
+#   name = "linkedin"
+#   url = "https://linkedin.com/in/your-linkedin"
+
+# -----------------------
+# Menu
+# -----------------------
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 3

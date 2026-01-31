@@ -1,8 +1,4 @@
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:your@email.com"[[params.socialIcons]]
-  name = "email"
-  url = "mailto:your@email.com"baseURL = "https://nishant-kamal.github.io/"
+baseURL = "https://nishant-kamal.github.io/"
 languageCode = "en-us"
 title = "Nishant Kamal | SRE / DevOps / Platform"
 theme = "PaperMod"

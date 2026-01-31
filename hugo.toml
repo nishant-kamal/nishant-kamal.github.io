@@ -4,9 +4,9 @@ title = "Nishant Kamal | SRE / DevOps"
 theme = "PaperMod"
 enableRobotsTXT = true
 
-# -----------------------
+# --------------------------------------------------
 # GLOBAL SITE PARAMS
-# -----------------------
+# --------------------------------------------------
 [params]
   author = "Nishant Kamal"
   description = "Site Reliability Engineer focused on Kubernetes, Cloud Infrastructure, GitOps, and Automation"
@@ -22,9 +22,15 @@ enableRobotsTXT = true
   ShowShareButtons = false
   ShowToc = true
 
-# -----------------------
+# --------------------------------------------------
+# LOAD CUSTOM CSS (IMPORTANT)
+# --------------------------------------------------
+[params.assets]
+  customCSS = ["css/custom.css"]
+
+# --------------------------------------------------
 # HOMEPAGE (PROFILE MODE)
-# -----------------------
+# --------------------------------------------------
 [params.profileMode]
   enabled = true
   title = "Hi, I’m Nishant 👋"
@@ -47,9 +53,9 @@ enableRobotsTXT = true
     name = "✍️ Blog"
     url = "/blog/"
 
-# -----------------------
+# --------------------------------------------------
 # SOCIAL ICONS (HEADER + FOOTER)
-# -----------------------
+# --------------------------------------------------
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/imnishantdevops"
@@ -58,9 +64,9 @@ enableRobotsTXT = true
   name = "linkedin"
   url = "https://www.linkedin.com/in/imnishant19/"
 
-# -----------------------
-# MENU (TOP NAVBAR)
-# -----------------------
+# --------------------------------------------------
+# TOP NAVIGATION MENU
+# --------------------------------------------------
 [menu]
   [[menu.main]]
     name = "About"
@@ -77,9 +83,9 @@ enableRobotsTXT = true
     url = "/blog/"
     weight = 3
 
-# -----------------------
-# MARKUP (CODE HIGHLIGHTING)
-# -----------------------
+# --------------------------------------------------
+# MARKUP / CODE HIGHLIGHTING
+# --------------------------------------------------
 [markup.highlight]
   noClasses = false
   style = "dracula"

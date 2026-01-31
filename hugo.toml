@@ -62,11 +62,16 @@ enableRobotsTXT = true
 
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://www.linkedin.com/in/imnishant19/"
+  url = "https://www.linkedin.com/in/imnishant19"
 
 [[params.socialIcons]]
   name = "instagram"
-  url = "https://instagram.com/imnishant19"  
+  url = "https://instagram.com/imnishant19"
+
+[[params.socialIcons]]
+  name = "facebook"
+  url = "https://www.facebook.com/imnishant19"  
+  
 # --------------------------------------------------
 # TOP NAVIGATION MENU
 # --------------------------------------------------
